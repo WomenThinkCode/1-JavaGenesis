@@ -23,16 +23,17 @@ wtc@pop-os:~/dump/Creating_java_applications$ git branch
  
 ```
 (The stars indicate what branch you are working in.)
-Now that you are here, you can work on the repo and git commit, git push as normal.
+Now that you are here, you can work on the repo and git commit
 
-**If you would like your code to be reviewed or have any suggestions, need help etc. You can make a pull request for that:**
-Open a Pull Request
-
-1) Go to the GitHub repo in your browser
-2) Click Pull Requests → New Pull Request
-3) In the “Compare” dropdown, select your branch (yourname/feature-description)
-4) Review the diff, add a clear title and description (e.g. “Add solutions for OOP warmups”)
-5) Click Create Pull Request
+```bash
+git push --set-upstream origin your-branch-name
+```
+This tells Git:
+"Hey, when I push this branch for the first time, link it to the remote one (on GitHub, for example), and remember it."
+So after that, you can just do:
+```bash
+git push
+```
 
 **HAPPY CODING!!🎉**
     

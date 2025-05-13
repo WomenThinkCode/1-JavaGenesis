@@ -126,8 +126,8 @@ On intellij to move through branches use git checkout (branch name you want to c
 
 ## Your first application
 
-1. In a file called Hello.java create an application that prints to the console "Hello World".
-2. Create a copy of Hello.java World however this time name it Hello2.java and add comments of your choice to explaining  what each line/statement is doing.
+1. In a file called exercises.java create an application that prints to the console "exercises World".
+2. Create a copy of exercises.java World however this time name it Hello2.java and add comments of your choice to explaining  what each line/statement is doing.
 ```bash
    Note In java file names and classes must be the same!
 ```
